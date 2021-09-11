@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container,
+.button-container,
+.timer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: lightblue;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer,
+button {
+    margin: 0.5em;
+    border-radius: 5px;
+}
+
+.timer {
+    height: 11em;
+    width: 12em;
+    background-color: hotpink;
+    align-items: center;
+    padding: 1em;
+}
+
+.timer p {
+    font-size: 100px;
+}
+
+button {
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: lightgray;
+}
