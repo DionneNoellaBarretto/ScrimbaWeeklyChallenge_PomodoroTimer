@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    position: relative;
+    font-size: 0.9rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .container,
@@ -26,7 +33,7 @@ button {
 .timer {
     height: 11em;
     width: 12em;
-    background-color: hotpink;
+    background-color: rgb(255, 105, 118);
     align-items: center;
     padding: 1em;
 }
